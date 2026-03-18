@@ -1,0 +1,19 @@
+[project]
+name = "ML-Portfolio"
+version = "0.1.0"
+readme = "README.md"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "ipykernel>=7.2.0",
+    "kagglehub",
+    "ipywidgets",
+    "sympy",
+    "scikit-learn",
+    "ipympl",
+    "torch",
+    "torchvision",
+    "plotly",
+    "xmltodict"
+]
