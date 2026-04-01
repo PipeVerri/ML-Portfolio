@@ -15,5 +15,7 @@ dependencies = [
     "torch",
     "torchvision",
     "plotly",
-    "xmltodict"
+    "xmltodict",
+    "python-mnist>=0.7",
+    "pytorch-lightning>=2.6.1",
 ]
