@@ -6,6 +6,10 @@ A collection of experiments and projects focused on computer vision, dimensional
 
 This section contains in-depth machine learning analyses, documented in Jupyter Notebooks.
 
+- **[MNIST Sparse Contractive Autoencoder](./Experiments/AE_MNIST)**:
+  * Exploration of a 4-dimensional latent space trained to behave like discrete binary “switches” using sparsity (L1) and contractive regularization.
+  * Interactive analysis tools for inspecting reconstructions and manually manipulating latent bits to observe their semantic effects on generated digits.
+
 - **[Object Detection via Clustering](./Experiments/object_detection_clustering/)**: 
   - Unsupervised object detection pipeline on PASCAL VOC 2007.
   - Feature extraction using Sobel convolutions and spatial clustering (K-Means, DBSCAN, OPTICS, Birch).
