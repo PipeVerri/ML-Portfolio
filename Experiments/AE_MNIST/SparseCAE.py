@@ -24,7 +24,7 @@ class SparseCAE(pl.LightningModule):
         for h in hidden_dims:
             enc_layers += [nn.Linear(prev, h), nn.ReLU()]
             prev = h
-        enc_layers += [nn.Linear(prev, latent_dim), nn.Sigmoid()]
+        enc_layers += [nn.Linear(prev, latent_dim), nn.ReLU(), nn.Tanh()]
         self.encoder = nn.Sequential(*enc_layers)
 
         # ── Decoder ──────────────────────────────────────────────
